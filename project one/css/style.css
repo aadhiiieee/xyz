@@ -1,0 +1,273 @@
+@font-face {
+    font-family: poppins;
+    src: url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap);
+}
+@font-face {
+    font-family: fasthand;
+    src: url(https://fonts.googleapis.com/css2?family=Fasthand:wght@300;400;500;600;700;800&display=swap);
+}
+@font-face {
+    font-family: roboto;
+    src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800&display=swap);
+}
+body {
+    font-family: poppins;
+} 
+h1,h2,h3,h4,h5,h6 {
+    font-family: Fasthand;
+}
+ul li::before{
+    font-family: poppins;
+}
+ul li.nav-item{
+    font-family: poppins;
+}
+@media screen and (max-width:500px) {
+    .headicons{
+        display: flex;
+        text-align: center;
+    } 
+}
+p{
+    font-family: poppins;
+    font-size : 16px;
+    font-weight : 400; 
+}
+
+   .carousel-caption p {
+        font-family: poppins;
+    }
+
+#topslide1{
+    filter:opacity(80%)
+}
+#topslide2{
+    filter:opacity(70%)
+}
+#topslide3{
+    filter:opacity(70%)
+}
+.fa-facebook-official {
+    color: #3b5998;
+}
+
+.fa-linkedin-square {
+    color: #007bb6;
+}
+
+.fa-twitter-square {
+    color: #00aced;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.fa-phone-square {
+    color: gray;
+}
+
+.fa-envelope-o {
+    color: gray;
+}
+
+.fa-arrows-to-circle{
+    color: black;
+}
+.fa-utensils{
+    color: black;
+}
+.fa-snowman{
+    color: black;
+}
+.fa-wallet{
+    color: black;
+}
+.fa-filter{
+    color: black;
+}
+.fa-handshake{
+    color: black;
+}
+.img-fluid {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+ul.nav-item {
+    font-family: Fasthand;
+}
+
+ 
+    @media screen and (max-width: 500px) {   
+    .sliderheading {
+        font-size: 20px;
+        
+    }
+    @media screen and (max-width:500px) {
+        .slidercontent {
+            font-size: 12px;
+        }
+        
+    } 
+}
+.sliderthreecontent{
+    font-size: larger;
+}
+@media screen and (max-width:500px) {
+    .sliderthreecontent {
+        font-size: 12px;
+        
+    }
+    
+} 
+
+    
+
+ @media screen and (max-width: 600px) { 
+    .serviceicon {
+        display:flex ;
+        justify-content: center;
+    }
+} 
+
+#carouselheading1 {
+    font-family: Fasthand;
+    color: #9f5e33;
+}
+#carouselheading2 {
+    font-family: Fasthand;
+    color: #fd3a17;
+}
+#carouselheading3 {
+    font-family: Fasthand;
+    color: #1eb6fd;
+}
+
+
+#carouselcontent1 {
+    font-family: montserrat;
+    color: #ffffff;
+}
+#carouselcontent2 {
+    font-family: montserrat;
+    color: #ffffff;
+}
+
+#carouselcontent3 {
+    font-family: montserrat;
+    color: #ffffff;
+    
+}
+
+
+
+.fixed-height {
+    max-height: 500px;
+}
+
+
+
+
+.parallax {
+	background : #000;
+	background :linear-gradient(
+		rgba(0,0,0,0.3),
+		rgba(0,0,0,0.8)
+		),
+		url(images/pa.jpg);
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+.header{
+	padding:100px 0 150px 0;
+}
+
+.parallaxone {
+	background : #000;
+	background :linear-gradient(
+		rgba(0,0,0,0.3),
+		rgba(0,0,0,0.8)
+		),
+		url(images/handshake.jpg);
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+/* #carouselmiddleid{
+    background-color: grey;
+} */
+.headerone{
+	padding:100px 0 150px 0;
+}
+#invertlogo{
+    filter: invert(100%);
+}
+.footermenu{
+    line-height: 50px;
+    list-style: none;
+    text-decoration: none;
+    
+    
+}
+ul.footermenu{
+    font-family:Fasthand;
+}
+#emailph{
+    border-radius: 10px;
+}
+#newsletter{
+    font-size: 0.7rem;
+}
+.fa-copyright{
+    color: #000;
+}
+
+
+
+.carousel-cell{
+    width: 23%;
+    min-height: 300px;
+    margin-right: 10px;    
+}
+.card-title{
+    height: 100px;
+}
+
+.card-text{
+    height: 120px; 
+}
+.blogbutton{
+    height:40px;
+    top: 50%;
+}
+.carousel .flickity-page-dots {
+    bottom: 0px;
+    top: 100%;
+  }
+ 
+  .carousel .flickity-page-dots .dot {
+    height: 4px;
+    width: 40px;
+    margin: 0;
+    border-radius: 0;
+  } 
+@media screen and (max-width:800px) {
+    .carousel .flickity-page-dots .dot {
+        width: 20px;
+    }
+    
+}
+@media screen and (max-width:800px) {
+    .carousel-cell{
+        width: 90%;
+        max-width: 300px;
+        max-height: 600px;
+    }
+    
+}
